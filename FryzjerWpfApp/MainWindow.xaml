@@ -1,0 +1,16 @@
+﻿<Window x:Class="FryzjerWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FryzjerWpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="347">
+    <Grid>
+        <Button x:Name="wizytyBtn" Content="Wizyty" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="99" Width="322" Click="wizytyBtn_Click"/>
+        <Button x:Name="klienciBtn" Content="Klienci" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Height="99" Width="322" Click="klienciBtn_Click"/>
+        <Button x:Name="pracownicyBtn" Content="Pracownicy" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Height="99" Width="322" Click="pracownicyBtn_Click"/>
+        <Button x:Name="uslugiBtn" Content="Usługi" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top" Height="99" Width="322" Click="uslugiBtn_Click"/>
+
+    </Grid>
+</Window>
